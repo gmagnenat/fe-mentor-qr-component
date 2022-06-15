@@ -1,0 +1,31 @@
+:root {
+	--color-white: hsl(0, 0%, 100%);
+	--color-light-gray: hsl(212, 45%, 89%);
+	--color-grayish-blue: hsl(220, 15%, 55%);
+	--color-dark-blue: hsl(218, 44%, 22%);
+
+	--font-size-body: 1.5rem;
+	--font-size-heading: 2.2rem;
+	--font-family: 'Outfit', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: var(--font-family);
+	font-size: 62.5%;
+}
+
+body {
+	font-size: var(--font-size-body);
+	background-color: var(--color-light-gray);
+}
